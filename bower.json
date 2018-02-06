@@ -1,0 +1,21 @@
+{
+  "name": "expressjwtdemo1",
+  "description": "",
+  "main": "",
+  "authors": [
+    "任庆伟 <renqw@asiainfo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-jwt": "^0.1.9",
+    "angularLocalStorage": "ngStorage#^0.3.2"
+  }
+}

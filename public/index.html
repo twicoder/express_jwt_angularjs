@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Title!</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+
+
+    <script src="libs/angular.js"></script>
+    <script src="libs/ngStorage.js"></script>
+    <script src="libs/angular-ui-router.js"></script>
+    <!--<script src="javascripts/demologin.js"></script>-->
+    <script src="app.js"></script>
+    <script src="javascripts/authService.js"></script>
+    <script src="app/home/index.controller.js"></script>
+    <script src="app/login/index.controller.js"></script>
+</head>
+<body>
+<!--{{title}}-->
+<!--<form>-->
+    <!--<label>Username:</label>-->
+    <!--<input ng-model="vm.username"/>-->
+    <!--<label>Password:</label>-->
+    <!--<input ng-model="vm.password"/>-->
+    <!--<a class="btn btn-primary" ng-click="vm.login()">Login</a>-->
+<!--</form>-->
+
+<!-- main app container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-sm-8 col-sm-offset-2">
+            <ui-view></ui-view>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
